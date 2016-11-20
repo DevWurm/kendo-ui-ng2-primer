@@ -1,0 +1,16 @@
+#container {
+  margin: 20px;
+
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+}
+
+#info-text {
+  font-size: 20px;
+  margin-right: 30px;
+}
+
+.input-element {
+  margin-right: 10px;
+}
