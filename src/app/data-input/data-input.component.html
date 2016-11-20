@@ -1,0 +1,11 @@
+<div>
+  <kendo-slider
+    [min]="0"
+    [max]="50"
+    [smallStep]="1"
+    [fixedTickWidth]="5"
+    [(ngModel)] = "value"
+  ></kendo-slider>
+  <span>{{value}}</span>
+  <button kendoButton (click)="emitData()" [primary]="true">Add</button>
+</div>

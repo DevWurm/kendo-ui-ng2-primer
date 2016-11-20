@@ -4,15 +4,23 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { DataInputComponent } from './data-input/data-input.component';
+import { InputsModule } from '@progress/kendo-angular-inputs';
+import { ButtonsModule } from '@progress/kendo-angular-buttons';
+import { DataViewComponent } from './data-view/data-view.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DataInputComponent,
+    DataViewComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    InputsModule,
+    ButtonsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
